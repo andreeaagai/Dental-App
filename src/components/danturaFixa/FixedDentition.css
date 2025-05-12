@@ -1,0 +1,426 @@
+.dentura-fixa {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  
+  :root {
+    --primary: #967189;
+    --secondary: #BE9194;
+    --hover: #ddc9ca;
+    --light-bg: #f8f4f5;
+    --dark-text: #333;
+    --light-text: #fff;
+  }
+  
+  .hero-section {
+    background: linear-gradient(rgba(120, 125, 128, 0.9), rgba(229, 231, 233, 0.5)),
+    url('../../assets/dental.clinic.png') center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .hero-section .subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+  }
+  
+  .highlight-box {
+    background-color: var(--light-bg);
+    border-left: 4px solid var(--secondary);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  /* Sectiune Candidati */
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .benefit-card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .benefit-card:hover {
+    transform: translateY(-5px);
+    background-color: var(--hover);
+  }
+  
+  .benefit-card .icon {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Sectiune Procedura */
+  .procedura-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  
+  .procedura-image {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .procedura-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .procedura-steps {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .step {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 25px;
+    align-items: flex-start;
+  }
+  
+  .step-number {
+    background-color: var(--primary);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    flex-shrink: 0;
+  }
+  
+  .step-content h3 {
+    margin-top: 0;
+  }
+  
+  /* Sectiune Avantaje */
+  .avantaje-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .avantaj-card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .avantaj-card:hover {
+    transform: translateY(-5px);
+    background-color: var(--hover);
+  }
+  
+  .avantaj-card h3 {
+    color: var(--primary);
+    margin-top: 0;
+  }
+
+  /* Sectiune Siguranta */
+.siguranta-section {
+    background-color: #f8f4f5; /* Light background */
+    padding: 60px 20px;
+    border-radius: 8px;
+    margin: 40px 0;
+  }
+  
+  .siguranta-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .siguranta-subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  
+  .siguranta-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .siguranta-card {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(150, 113, 137, 0.1); 
+    transition: all 0.3s ease;
+    border-top: 4px solid var(--secondary); 
+  }
+  
+  .siguranta-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(150, 113, 137, 0.2);
+    background-color: var(--hover); 
+  }
+  
+  .siguranta-card .icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: var(--primary); 
+  }
+  
+  .siguranta-card h3 {
+    color: var(--primary); 
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .siguranta-card p {
+    color: #666;
+    margin: 0;
+    font-size: 0.95rem;
+  }
+  
+  /* Sectiune Specialist */
+  .specialist-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .specialist-image {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .specialist-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .specialist-info {
+    flex: 2;
+    min-width: 300px;
+  }
+  
+  .specialist-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .stat-item {
+    text-align: center;
+    padding: 15px;
+    background-color: var(--light-bg);
+    border-radius: 8px;
+  }
+  
+  .stat-number {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--primary);
+  }
+  
+  .stat-label {
+    font-size: 0.9rem;
+    color: var(--dark-text);
+  }
+  
+  .specialist-details {
+    background-color: var(--light-bg);
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .specialist-details ul {
+    padding-left: 20px;
+  }
+  
+  /* Sectiune Riscuri */
+  .riscuri-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .risc-card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .risc-card:hover {
+    transform: translateY(-5px);
+    background-color: var(--hover);
+  }
+  
+  .risc-card h3 {
+    margin-top: 0;
+  }
+  
+  /* Sectiune Recomandari */
+  .recomandari-list {
+    margin-top: 30px;
+  }
+  
+  .recomandare {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: var(--light-bg);
+    border-radius: 8px;
+  }
+  
+  .recomandare-icon {
+    font-size: 1.5rem;
+    color: var(--primary);
+  }
+  
+  /* Sectiune Implanturi */
+  .implanturi-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  
+  .implanturi-info {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .implanturi-image {
+    flex: 1;
+    min-width: 300px;
+    align-content: center;
+  }
+  
+  .implanturi-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .implanturi-features {
+    margin-top: 20px;
+  }
+  
+  .feature {
+    margin-bottom: 20px;
+  }
+  
+  .implanturi-info h2 {
+    margin-bottom: 20px;
+  }
+  /* CTA Section */
+  .cta-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 8px;
+    margin: 0;
+  }
+  
+  .cta-section h2 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: white;
+    color: var(--primary);
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .cta-button:hover {
+    background-color: var(--hover);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-section {
+      padding: 60px 20px;
+    }
+    
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+    
+    .procedura-content, .specialist-content, .implanturi-content {
+      flex-direction: column;
+    }
+    
+    .benefit-card, .avantaj-card, .risc-card {
+      padding: 20px;
+    }
+    
+    .specialist-stats {
+      grid-template-columns: 1fr 1fr;
+    }
+    .siguranta-section {
+      padding: 40px 15px;
+    }
+      
+    .siguranta-grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+      
+    .siguranta-card {
+      padding: 25px 15px;
+    }
+  }

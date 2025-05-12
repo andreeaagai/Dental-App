@@ -1,0 +1,168 @@
+ .programare-section {
+    flex: 1;
+    min-width: 300px;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  
+  }
+  
+  .programare-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .programare-header h2 {
+    color: var(--primary);
+    margin-bottom: 10px;
+  }
+  
+  .programare-header p {
+    color: #666;
+  }
+  
+  .programare-form {
+    margin-bottom: 30px;
+  }
+  
+  .programare-form h3 {
+    color: var(--primary);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--primary);
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary);
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .form-row .form-group {
+    flex: 1;
+  }
+
+  .specializare-select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: white;
+    color: #333;
+    transition: border-color 0.3s ease;
+  }
+  
+  .specializare-select:focus {
+    outline: none;
+    border-color: var(--primary);
+  }
+
+  .specializare-select option {
+    padding: 10px;
+  }
+  
+  .specializare-select option:hover {
+    background-color: var(--hover);
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 15px;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+  }
+  
+  .submit-btn:hover {
+    background: var(--secondary);
+    transform: translateY(-3px);
+  }
+  
+  .submit-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .success-message {
+    margin-top: 20px;
+    padding: 15px;
+    background: #d4edda;
+    color: #155724;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .error-message {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8d7da;
+    color: #721c24;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .vezi-echipa {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+  }
+  
+  .vezi-echipa p {
+    margin-bottom: 15px;
+  }
+  
+  .vezi-echipa-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: var(--secondary);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .vezi-echipa-btn:hover {
+    background: var(--primary);
+    transform: translateY(-3px);
+  }
+  
+  @media (max-width: 768px) {
+
+    .programare-section {
+        padding: 20px;
+        margin: 0;
+      }
+    }

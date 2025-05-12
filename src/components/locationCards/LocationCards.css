@@ -1,0 +1,265 @@
+.location-container {
+    margin: auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .location-container h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .location-container h2::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #967189, #f8f4f5);
+    margin: 15px auto 0;
+    border-radius: 2px;
+  }
+  
+  .cards-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .contact-card,
+  .appointment-card {
+    flex: 1;
+    min-width: 300px;
+    max-width: 450px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .contact-card:hover,
+  .appointment-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .contact-card {
+    text-align: left;
+    background: linear-gradient(135deg, white 0%, #f8f9fa 100%);
+  }
+
+  .contact-card a {
+    text-decoration: none;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-header .icon-card {
+    font-size: 1.8rem;
+    color: #967189;
+    margin-right: 15px;
+  }
+  
+  .card-header h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin: 0;
+  }
+  
+  .card-content p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .contact-info-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .contact-info-card .info-icon {
+    color: #967189;
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .contact-info-card span {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .map-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #967189, #ddc9ca);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .map-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .map-button .button-icon {
+    margin-right: 8px;
+  }
+  
+  .appointment-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ddc9ca 100%);
+  }
+  
+  .appointment-card h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  .appointment-card .description {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .appointment-button {
+    padding: 12px 30px;
+    background: linear-gradient(90deg, #967189, #ddc9ca);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .appointment-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+  }
+  
+  .social-icon {
+    font-size: 2rem;
+    color: #2c3e50;
+    transition: all 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #3498db;
+    transform: translateY(-3px);
+  }
+  
+  /* Responsive design */
+   @media (max-width: 768px) {
+    .cards-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .contact-card,
+    .appointment-card {
+      width: 100%;
+    }
+    
+    .location-container h2 {
+      font-size: 2rem;
+    }
+  } 
+  /* Responsive design pentru telefoane mobile */
+@media (max-width: 480px) {
+  .location-container {
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .location-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+  .cards-wrapper {
+    gap: 20px;
+  }
+
+  .contact-card,
+  .appointment-card {
+    min-width: 250px;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+  }
+
+  .card-header .icon-card {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+
+  .card-header h3 {
+    font-size: 1.3rem;
+  }
+
+  .card-content p {
+    font-size: 1rem;
+  }
+
+  .contact-info-card span {
+    font-size: 0.9rem;
+  }
+
+  .map-button,
+  .appointment-button {
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 25px;
+  }
+
+  .social-media {
+    gap: 15px;
+    margin-top: 30px;
+  }
+
+  .social-icon {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .contact-card,
+  .appointment-card {
+    min-width: 200px;
+    max-width: 250px;
+    padding: 20px;
+    border-radius: 12px;
+  }
+}

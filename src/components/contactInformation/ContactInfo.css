@@ -1,0 +1,148 @@
+/* Contact.css */
+.contact-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  /* Culurile clinicii */
+  :root {
+    --primary: #967189;
+    --secondary: #BE9194;
+    --hover: #ddc9ca;
+    --light-bg: #f8f4f5;
+    --dark-text: #333;
+    --light-text: #fff;
+  }
+  
+  /* Hero Section */
+  /* .hero-section {
+    background: linear-gradient(rgba(120, 125, 128, 0.9), rgba(229, 231, 233, 0.5)),
+    url('../../assets/dental.clinic.png') center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+  } */
+  
+  .hero-section h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .hero-section p {
+    font-size: 1.3rem;
+  }
+  
+  /* Container Principal */
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 60px;
+  }
+  
+  /* Sectiune Informatii Contact */
+  .contact-info {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .info-card {
+    background: var(--light-bg);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .info-item {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+    align-items: flex-start;
+  }
+  
+  .info-item .icon {
+    font-size: 1.5rem;
+    color: var(--primary);
+  }
+  
+  .info-item h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: var(--primary);
+  }
+  
+  .info-item p {
+    margin: 5px 0;
+    font-size: 0.95rem;
+  }
+  
+  .social-links {
+    margin-top: 30px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .social-icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.1);
+  }
+  
+  .clinic-image {
+    flex: 1;
+  }
+  
+  .clinic-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+ 
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-section {
+      padding: 60px 20px;
+      margin: 0, auto;
+    
+    }
+    
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+    
+    .form-row {
+      flex-direction: column;
+      gap: 0;
+    }
+    
+    .contact-container {
+      flex-direction: column;
+  
+    }
+    
+    .info-card {
+      padding: 20px;
+    }
+
+    .contact-info {
+      margin: 0;
+    }
+  }

@@ -1,0 +1,75 @@
+.team-carousel {
+    padding: 60px 20px;
+    margin: 0 auto;
+    position: relative;
+    background: linear-gradient(135deg, white 0%, #f8f9fa 100%);
+  }
+  
+  .team-carousel h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  .team-carousel h2::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #967189, #f8f4f5);
+    margin: 15px auto 30px;
+    border-radius: 2px;
+  }
+  
+  .team-member {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    height: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-5px);
+  }
+  
+  .team-member img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 20px;
+    display: block;
+    border: 3px solid #f0f0f0;
+  }
+  
+  .swiper {
+    padding: 30px;
+  }
+  
+  .swiper-slide {
+    height: auto;
+    display: flex;
+  }
+  
+  .swiper-button-next, 
+  .swiper-button-prev {
+    color: #333;
+    background: rgba(255,255,255,0.8);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .swiper-button-next:after, 
+  .swiper-button-prev:after {
+    font-size: 1.2rem;
+  }

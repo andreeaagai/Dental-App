@@ -1,0 +1,103 @@
+.testimonials-section {
+  width: 100%;
+  background-color: var(--light-bg);
+  padding-top: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #967189, #f8f4f5);
+  margin: 15px auto 0;
+  border-radius: 2px;
+}
+
+
+.single-testimonial {
+  max-width: 540px; 
+  margin: 0 auto;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.single-testimonial:hover {
+  transform: translateY(-5px);
+}
+
+/* Corecții specifice pentru video portret 2160x3840 (9:16) */
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 177.78%; /* Proporție 9:16 */
+  background: #000; /* Fundal negru pentru bare */
+}
+
+.patient-info {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.patient-info h3 {
+  color: #2a6496;
+  margin-bottom: 0.5rem;
+}
+
+.patient-info p {
+  color: #666;
+  font-style: italic;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .section-title {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+
+  
+  .single-testimonial {
+    max-width: 400px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .single-testimonial {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 0 15px;
+  }
+  
+  .section-title {
+    font-size: 1.7rem;
+  }
+  
+  .video-wrapper {
+    padding-bottom: 177.78%; /* Menține proporția și pe mobil */
+  }
+  
+  .patient-info {
+    padding: 1.2rem;
+  }
+}

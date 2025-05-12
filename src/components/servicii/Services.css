@@ -1,0 +1,295 @@
+.services-carousel {
+    padding: 80px 20px;
+    margin: 0 auto;
+    position: relative;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ddc9ca 100%);
+    overflow: hidden;
+  }
+  
+  .services-carousel::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><path fill="rgba(173, 216, 230, 0.1)" d="M30,10L50,30L70,10L90,30L70,50L90,70L70,90L50,70L30,90L10,70L30,50L10,30L30,10Z"/></svg>');
+    opacity: 0.1;
+    z-index: 0;
+  }
+  
+  .services-carousel h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  .services-carousel h2::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #967189, #f8f4f5);
+    margin: 15px auto 30px;
+    border-radius: 2px;
+  }
+  
+  .services-carousel p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .swiper {
+    padding: 30px 10px;
+    position: relative;
+    z-index: 1;
+    max-width: 1400px;
+  }
+  
+  .swiper-slide {
+    height: auto;
+    display: flex;
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+  }
+
+  .swiper-wrapper {
+    transition-timing-function: ease-in-out;
+  }
+  
+  
+  .service-information {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  
+  .service-information:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+  }
+  
+  .service-information img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    border-bottom: 3px solid #3498db;
+    filter: grayscale(20%);
+    transition: all 0.4s ease;
+  }
+  
+  .service-information:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.03);
+  }
+  
+  .service-information h3 {
+    padding: 20px 20px 10px;
+    font-size: 1.4rem;
+    color: #2c3e50;
+    margin: 0;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .service-information p {
+    padding: 0 20px 25px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #555;
+    margin: 0;
+    text-align: left;
+    flex-grow: 1;
+  }
+  
+  .service-information::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #967189, #ddc9ca);
+    opacity: 0.8;
+  }
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    color: #3498db;
+    opacity: 0.9;
+  }
+  
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background: #ddc9ca;
+    color: white;
+    transform: scale(1.1);
+  }
+  
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .services-grid-video {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .service-card-video {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+  }
+
+  .service-card-video:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  }
+
+  .video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    background: #000;
+  }
+
+  .service-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .service-info {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .service-info h3 {
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+  }
+
+  .service-info p {
+    color: var(--dark-text);
+    font-style: italic;
+    margin: 0;
+  }
+
+
+  /* Responsive adjustments */
+  @media (max-width: 992px) {
+    .services-grid-video{
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+      max-width: 800px;
+    }
+    .service-card {
+      transform: scale(0.9); /* Micșorăm ușor cardurile */
+      margin: 0 auto; /* Centrare */
+    }
+    .video-wrapper {
+      padding-bottom: 60%; /* Proporție mai compactă */
+    }
+  
+    .service-info h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.3rem;
+    }
+  
+    .service-info p {
+      font-size: 0.9rem;
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    .services-carousel {
+      padding: 60px 15px;
+    }
+    
+    .services-carousel h2 {
+      font-size: 2rem;
+    }
+    
+    .service-information img {
+      height: 180px;
+    }
+    
+    .service-information h3 {
+      font-size: 1.2rem;
+      padding: 15px 15px 8px;
+    }
+    
+    .service-information p {
+      font-size: 0.9rem;
+      padding: 0 15px 20px;
+    }
+    .services-grid-video{
+      gap: 1rem;
+    }
+    .video-wrapper {
+      padding-bottom: 65%; /* Proporție și mai compactă */
+    }
+  }
+
+  @media (max-width: 576px) {
+    .services-grid-video {
+      grid-template-columns: 1fr;
+      max-width: 400px;
+    }
+    
+    .video-wrapper {
+      padding-bottom: 75%; /* Adaptare pentru mobil */
+    }
+  }
+  
+  /* Animation for autoplay indicator */
+  @keyframes autoplay-progress {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 0%;
+    }
+  }
+  
+  .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background: linear-gradient(90deg, #967189, #BE9194);
+    animation: autoplay-progress 5.5s linear forwards;
+  }
