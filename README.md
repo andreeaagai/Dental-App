@@ -1,84 +1,56 @@
-# 🦷 eDentify - Dental Clinic Website
+# eDentify – Dental Clinic Website
 
-A modern and responsive React website built for a dental clinic. The application includes online appointment functionality, a full presentation of services, pricing, contact information, and a gallery of before-and-after transformations. This project was built from scratch and fully redesigned based on the outdated version of the previous site, with a focus on improved structure, responsiveness, and usability.
+![React](https://img.shields.io/badge/React-17.0.2-blue?style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge)
+![Vercel](https://img.shields.io/badge/Deployed-on-Vercel-black?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-🔗 **Live Demo:**  
-[https://edentify-app.vercel.app](https://edentify-app.vercel.app)
-
----
-
-## ✨ Features
-
--   🗓️ Online appointment form (EmailJS)
--   📋 Detailed services and pricing
--   📸 Before & After gallery (Swiper)
--   👨‍⚕️ Team presentation
--   📍 Location cards & contact info
--   🌐 Fully responsive design (mobile-first)
--   🎯 Smooth scroll between sections (custom ScrollContext)
--   🧭 Multi-page routing (React Router)
+## Live Demo
+[Click aici pentru demo live](https://your-live-demo-link.vercel.app)
 
 ---
 
-## 🧰 Tech Stack
+## Descriere
+eDentify este o aplicație web pentru clinicile dentare, creată pentru a oferi utilizatorilor o experiență intuitivă și completă:
+- Vizualizare servicii și tarife
+- Galerie foto cu proceduri și echipamente
+- Formular de programare rapidă
+- Design responsive și interactiv
 
--   **React**
--   **React Router**
--   **EmailJS**
--   **SwiperJS**
--   **React Icons**
--   **Custom Scroll Provider (React Context)**
--   **CSS Modules / Standard CSS**
-
----
-
-## 🗂️ Project Structure
-
-```
-src/
-├── components/
-│   ├── aboutus/
-│   ├── beforeAndAfter/
-│   ├── contactInformation/
-│   ├── formProgramare/
-│   └── ...
-|
-├── pages/
-│   ├── Home.jsx
-│   ├── Contact.jsx
-│   └── ...
-├── contexts/
-│   └── ScrollContext.jsx
-├── App.jsx
-├── index.css
-└── ...
-```
+Acest proiect este realizat integral de mine și este construit cu React, având integrare pentru formularul de programare prin EmailJS.
 
 ---
 
-## 🚀 Run Locally
+## Features
+- Pagina principală cu informații despre clinică
+- Secțiune servicii și prețuri
+- Galerie foto cu efect de slideshow
+- Formular de programare funcțional (EmailJS)
+- Navigare între secțiuni cu React Router
+- Design responsive, compatibil cu mobil și desktop
+- Scroll smooth și efecte UI prietenoase
 
-Clone the project and install dependencies:
+---
+
+## Tech Stack
+- **Frontend:** React, React Router, CSS, SwiperJS, React Icons
+- **Email:** EmailJS pentru trimitere formulare
+- **Deployment:** Vercel
+
+---
+
+## Screenshots / Demo GIF
+> Adaugă imaginile tale reale aici:
+
+![Homepage](./screenshots/homepage.png)
+![Formular Programare](./screenshots/form.png)
+![Galerie](./screenshots/gallery.png)
+
+---
+
+## Installation / Setup
+
+1. Clonează repository-ul:
 
 ```bash
-git clone https://github.com/MihailNegulet/dental-clinical-app.git
-cd edentify-app
-npm install
-npm start
-```
-
-The app will run at `http://localhost:3000`.
-
----
-
-## 📌 About the Project
-
-This is a solo project created from scratch. The goal was to modernize an existing dental clinic website that lacked mobile support and had a poor structure. All components were built and styled manually, with a clean code structure and modular logic using React best practices.
-
----
-
-## 📬 Contact
-
-If you'd like to get in touch or want to collaborate, feel free to connect with me via [LinkedIn](https://www.linkedin.com/in/negulet-mihail-31835983/) or check out more projects in my [GitHub profile](https://github.com/MihailNegulet).
-
----
+git clone https://github.com/andreeaagai/Dental-App.git
