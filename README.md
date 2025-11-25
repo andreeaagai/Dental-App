@@ -61,6 +61,14 @@ Acest proiect este realizat integral de mine și este construit cu React, având
 
 ---
 
+## Contact
+
+- Email: agapiandreea53@gmail.com
+- LinkedIn: https://www.linkedin.com/in/andreea-agapi-015705216/
+- GitHub: andreeaagai
+
+---
+
 ## Installation / Setup
 
 1. Clonează repository-ul:
@@ -68,10 +76,3 @@ Acest proiect este realizat integral de mine și este construit cu React, având
 ```bash
 git clone https://github.com/andreeaagai/Dental-App.git
 
----
-
-## Contact
-
-- Email: agapiandreea53@gmail.com
-- LinkedIn: https://www.linkedin.com/in/andreea-agapi-015705216/
-- GitHub: andreeaagai
