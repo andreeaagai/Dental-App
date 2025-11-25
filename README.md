@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ## Live Demo
-[Click aici pentru demo live](https://your-live-demo-link.vercel.app)
+[[Click aici pentru demo live](https://your-live-demo-link.vercel.app)](https://e-dentify-opal.vercel.app/)
 
 ---
 
@@ -65,7 +65,7 @@ Acest proiect este realizat integral de mine și este construit cu React, având
 
 - Email: agapiandreea53@gmail.com
 - LinkedIn: https://www.linkedin.com/in/andreea-agapi-015705216/
-- GitHub: andreeaagai
+- GitHub: [andreeaagai](https://github.com/andreeaagai)
 
 ---
 
