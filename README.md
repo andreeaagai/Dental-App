@@ -53,3 +53,24 @@ Acest proiect este realizat integral de mine și este construit cu React, având
 
 ```bash
 git clone https://github.com/andreeaagai/Dental-App.git
+
+Roadmap / Planuri viitoare
+
+- Integrare backend real pentru stocarea programărilor (Firebase / Node.js + MongoDB)
+
+- Autentificare utilizatori pentru programări personalizate
+
+- Pagină Contact cu Google Maps și detalii clinică
+
+- Optimizare SEO și performanță (lazy loading imagini, meta tags)
+
+- Adăugarea notificărilor email pentru programări
+
+
+Contact
+
+- Email: agapiandreea53@gmail.com
+
+- LinkedIn: https://www.linkedin.com/in/andreea-agapi-015705216/
+
+GitHub: andreeaagai
