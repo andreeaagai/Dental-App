@@ -40,7 +40,6 @@ Acest proiect este realizat integral de mine și este construit cu React, având
 ---
 
 ## Screenshots / Demo GIF
-> Adaugă imaginile tale reale aici:
 
 ![Homepage](./screenshots/homepage.png)
 ![Formular Programare](./screenshots/form.png)
