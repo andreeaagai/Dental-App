@@ -17,8 +17,6 @@ eDentify este o aplicație web pentru clinicile dentare, creată pentru a oferi 
 - Formular de programare rapidă
 - Design responsive și interactiv
 
-Acest proiect este realizat integral de mine și este construit cu React, având integrare pentru formularul de programare prin EmailJS.
-
 ---
 
 ## Features
