@@ -69,7 +69,7 @@ return (
                 <a href="https://www.instagram.com/edentifydentalcenter/" target="_blank" rel="noopener noreferrer">
                   <img src={instagramIcon} alt="Instagram" />
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.tiktok.com/@edentify" target="_blank" rel="noopener noreferrer">
                   <img src={tiktokIcon} alt="TikTok" />
                 </a>
               </div>

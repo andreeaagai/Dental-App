@@ -27,7 +27,7 @@ const TopBar = () => {
         <a href="https://www.instagram.com/edentifydentalcenter/" target="_blank" rel="noopener noreferrer">
           <FaInstagram className="social-icon-top-bar" />
         </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.tiktok.com/@edentify" target="_blank" rel="noopener noreferrer">
           <FaTiktok className="social-icon-top-bar" />
         </a>
         <a href="https://wa.me/40773933505" target="_blank" rel="noopener noreferrer">
