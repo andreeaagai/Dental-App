@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
 
         <div className="copyright">
-        <a href="https://github.com/MihailNegulet" target="_blank" rel="noopener noreferrer" className='author-info'>© Made by Mihail Negulet | Contact: mihailnegulet@gmail.com </a>
+        <a href="https://github.com/andreeaagai" target="_blank" rel="noopener noreferrer" className='author-info'>© Made by Andreea Agapi | Contact: agapiandreea53@gmail.com </a>
         </div>
       </div>
     </footer>
