@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ## Live Demo
-[[Click aici pentru demo live]([https://e-dentify-opal.vercel.app/](https://dental-app-seven-green.vercel.app/))
+[[Click aici pentru demo live] https://dental-app-seven-green.vercel.app/]
 
 ---
 
